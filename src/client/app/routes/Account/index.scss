@@ -1,0 +1,141 @@
+@import '../../styles/globals';
+
+.admin-list-group-item {
+	background: #383838;
+	cursor: pointer;
+}
+.user-description {
+	position: absolute;
+	width: 250px;
+	top: 0;
+	color: #fff;
+	margin-top: 10px;
+	margin-left: 70px;
+}
+.footnote {
+	display: block;
+	margin-top:20px;
+	font-size: 10px;
+	color: silver;
+}
+.action-link {
+	font-size: 13px;
+	color: #82aaff;
+	text-decoration: none;
+}
+.action-link:hover {
+	text-decoration: none;
+	color: #82aaff;
+}
+.logo-text-navigation {
+	color: $theme_color_1;
+	font-size: 14px;
+	padding: 10px;
+	text-align: center;
+	font-family: $logo_font_family;
+}
+.leftNavigationContainer {
+	width: 300px;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	z-index: 999999;
+}
+.leftNavigation {
+	background: #bb4145;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+	padding: 10px;
+	width: 300px;
+	box-shadow: 0px 10px 10px 1px #666666;
+
+	.navigationMenu {
+		padding: 10px;
+
+		.navigationHeader {
+			color: silver;
+			font-size: 12px;
+		}
+
+		.navigationItem {
+			padding: 10px;
+			color: #fff;
+			cursor: pointer;
+			transition: all .25s ease-in-out;
+			display: block;
+			width: 100%;
+			border: none;
+			margin-top: 20px;
+			background: none;
+			outline: none;
+			text-align: left;
+			border-bottom: solid 1px transparent;
+		}
+		.navigationItem:hover {
+			border-bottom: solid 1px #fff;
+		}
+
+		.activeItem {
+			// background: $theme_background;
+			color: #fff;
+			// border-radius: 5px;
+			font-weight: bold;
+			// border: solid 1px $theme_color_1;
+			outline: none;
+		}
+		.activeItem:hover {
+			color: #fff;
+		}
+
+	}
+}
+.dynamicContainer {
+	padding: 10px;
+	margin-left: 310px;
+}
+.navigation-button {
+	top: 0;
+	border: none;
+	z-index: 999999;
+	left: 0;
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+	// display: none;
+}
+.navigation-button:focus {
+	outline: none;
+}
+@media screen and (max-width: 1000px) {
+	.leftNavigationContainer {
+		height: 30px;
+	}
+	.leftNavigation {
+		// width: 0px;
+		// padding: 0px;
+		display: none;
+		margin-top: 5px;
+	}
+	.dynamicContainer {
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	.navigation-button {
+		display: block;
+		position: fixed;
+		top: 0;
+	}
+	.page-header {
+		text-align: center;
+	}
+}
+
+.customColumn {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	margin: 0px;
+	border-spacing: 0px;
+}

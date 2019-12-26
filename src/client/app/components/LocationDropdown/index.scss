@@ -1,0 +1,33 @@
+.location-dropdown {
+	padding: 10px;
+	width: 300px;
+	height: 500px;
+	max-height: 500px;
+	overflow-y: scroll;
+	background: #fafafa;
+	box-shadow: 4px 4px 10px 1px silver;
+	border-radius: 3px;
+	position: absolute;
+	z-index: 999;
+}
+.locationContainer {
+	padding: 10px;
+	// border-bottom: solid 1px #f0f0f0;
+	cursor: pointer;
+	transition: .25s all ease-in-out;
+	border: solid 1px transparent;
+	background: #fff;
+	border-radius: 3px;
+	margin-top: 2px;
+}
+.locationContainer:hover {
+	border: solid 1px #f0f0f0;
+	box-shadow: 4px 4px 10px 1px silver;
+}
+.title {
+	color: #d41625
+}
+.subtitle {
+	color: #383838;
+	font-size: 13px;
+}

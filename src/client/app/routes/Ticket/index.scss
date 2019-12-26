@@ -1,0 +1,164 @@
+.page-header {
+	color: #d60f1a;
+}
+.bus-container{
+	// display: inline-block;
+	position: relative;
+	min-width: 350px;
+	padding: 15px;
+	position: relative;
+	background: #fff;
+	// box-shadow: 5px 2px 10px 1px silver;
+	// border-radius: 50px;
+	height: 50px;
+}
+.depart-layer {
+	background: #f0f0f0;
+	padding: 5px;
+	border-radius: 3px;
+}
+.single-row {
+	border-bottom: solid 1px silver;
+	padding-bottom: 10px;
+}
+// .custum-row {
+// 	padding-top: 20px;
+// 	padding-bottom: 20px;
+// }
+.search-form-container {
+	box-shadow: 0px 0px 10px 1px #f0f0f0;
+	padding: 10px;
+	border-radius: 3px;
+	text-align: center;
+}
+.toggle-button {
+	position: relative;
+	width: 200px;
+	color: #fff;
+}
+.toggle-button-left {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-top: 3px;
+	margin-left: 7px;
+	border-radius: 30px;
+	border-bottom-left-radius: 100px;
+	border-top-left-radius: 100px;
+	border: none;
+	padding: 10px;
+}
+.form-container {
+	padding: 10px;
+	box-shadow: 0px 0px 10px 1px #f0f0f0;
+}
+.toggle-button-right {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-top: 3px;
+	margin-left: 220px;
+	border-bottom-right-radius: 100px;
+	border-top-right-radius: 100px;
+	border: none;
+	color: #383838;
+	padding: 10px;
+}
+.active-toggle {
+	background: #d60f1a;
+}
+
+.header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+	margin-right: 100px;
+}
+
+.body {
+    width: 40%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.ticket-container {
+	padding: 0px;
+	margin: 0px;
+	border-radius: 10px;
+	// box-shadow: 3px 3px 10px 1px silver;
+}
+.child-container-ticket {	
+	background-color: transparent;
+	margin-left: auto;
+	background:
+		linear-gradient(45deg , transparent 2vw, #fff 2vw) ,
+		linear-gradient(-45deg , transparent 2vw, #fff 2vw) ,
+		linear-gradient(45deg , transparent 1.8vw, #fff 1.8vw) ,
+		linear-gradient(-45deg , transparent 1.8vw, #fff 1.8vw);
+	background-size: 1vw calc(100% + 1.5vw);
+	border-bottom:none;
+  }
+
+  .parent-container {
+	background-color: #f0f0f0;
+	padding-top: 50px;
+	padding-bottom: 50px;
+  }
+  .ticket-header {
+	background-color: #ed9798;
+	padding: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+  }
+.journey-details {
+	margin-top: 20px;
+}
+  .space{
+    margin-top: 15px;
+}
+.cancel-booking {
+	cursor: pointer;
+}
+.ticket-details-content {
+	padding: 10px;
+	// background: #fff;
+}
+.holder-name {
+	font-weight: bolder;
+}
+.holder-email {
+	color: grey;
+}
+.small-text {
+	font-size: 9px;
+	color: #383838;
+}
+.journey-timing {
+	display: block;
+	font-size: 13px;
+	font-weight: bolder;
+}
+.ticket-date {
+	font-weight: bolder;
+	color: #d60f1a;
+}
+.left-container {
+	padding: 20px;
+	border-right: solid 1px #f0f0f0;
+}
+.right-container {
+	padding: 20px;
+}
+.large-text {
+	color: #383838;
+}
+.small-text {
+
+}
